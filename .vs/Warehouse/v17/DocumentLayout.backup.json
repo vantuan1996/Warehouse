@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Warehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\handlers\\getorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\handlers\\getorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500C8242-D5C3-4144-B898-8070AB7C6D0E}|Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj|d:\\c#\\warehouse\\warehouse.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500C8242-D5C3-4144-B898-8070AB7C6D0E}|Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj|solutionrelative:warehouse.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\handlers\\getcategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\handlers\\getcategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|d:\\c#\\warehouse\\warehouse\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|solutionrelative:warehouse\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|d:\\c#\\warehouse\\warehouse\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|solutionrelative:warehouse\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|d:\\c#\\warehouse\\warehouse\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|solutionrelative:warehouse\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|d:\\c#\\warehouse\\warehouse\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|solutionrelative:warehouse\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\handlers\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\handlers\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|d:\\c#\\warehouse\\warehouse.domain\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|solutionrelative:warehouse.domain\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{500C8242-D5C3-4144-B898-8070AB7C6D0E}|Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj|d:\\c#\\warehouse\\warehouse.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{500C8242-D5C3-4144-B898-8070AB7C6D0E}|Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj|solutionrelative:warehouse.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|d:\\c#\\warehouse\\warehouse.domain\\entities\\ordershippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|solutionrelative:warehouse.domain\\entities\\ordershippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|d:\\c#\\warehouse\\warehouse.core\\dtos\\ordershippinginfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5169EA7D-BB7E-4DA6-9515-D4E3E2BF5271}|Warehouse.Core\\Warehouse.Core.csproj|solutionrelative:warehouse.core\\dtos\\ordershippinginfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|d:\\c#\\warehouse\\warehouse.domain\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CCF43C-8E58-4770-AD0E-394290884D33}|Warehouse.Domain\\Warehouse.Domain.csproj|solutionrelative:warehouse.domain\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|d:\\c#\\warehouse\\warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF228E-7584-4B70-9766-530EBC70F607}|Warehouse\\Warehouse.API.csproj|solutionrelative:warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\DTOs\\OrderDto.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "Warehouse.Core\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:21:16.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOrderQueryHandler.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\GetOrderQueryHandler.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\Handlers\\GetOrderQueryHandler.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\GetOrderQueryHandler.cs",
+              "RelativeToolTip": "Warehouse.Core\\Handlers\\GetOrderQueryHandler.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAuwM0AAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:25:28.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Warehouse\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwC8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:37:48.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Warehouse\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T03:09:51.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Warehouse\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAIwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T03:09:09.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Warehouse.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:23:36.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Warehouse.Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:23:06.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCategoryQueryHandler.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\GetCategoryQueryHandler.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\Handlers\\GetCategoryQueryHandler.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\GetCategoryQueryHandler.cs",
+              "RelativeToolTip": "Warehouse.Core\\Handlers\\GetCategoryQueryHandler.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:24:29.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Warehouse\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA3wFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:15:47.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Warehouse.Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "Warehouse.Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:11:58.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Warehouse.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:23:08.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderShippingInfoDto.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\DTOs\\OrderShippingInfoDto.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\DTOs\\OrderShippingInfoDto.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\DTOs\\OrderShippingInfoDto.cs",
+              "RelativeToolTip": "Warehouse.Core\\DTOs\\OrderShippingInfoDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:21:45.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\Orders.cs",
+              "RelativeDocumentMoniker": "Warehouse.Domain\\Entities\\Orders.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\Orders.cs",
+              "RelativeToolTip": "Warehouse.Domain\\Entities\\Orders.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA4wBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:19:18.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderShippingInfo.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\OrderShippingInfo.cs",
+              "RelativeDocumentMoniker": "Warehouse.Domain\\Entities\\OrderShippingInfo.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\OrderShippingInfo.cs",
+              "RelativeToolTip": "Warehouse.Domain\\Entities\\OrderShippingInfo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T03:18:24.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\Inventory.cs",
+              "RelativeDocumentMoniker": "Warehouse.Domain\\Entities\\Inventory.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Domain\\Entities\\Inventory.cs",
+              "RelativeToolTip": "Warehouse.Domain\\Entities\\Inventory.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:16:45.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Warehouse.Core\\Handlers\\CreateOrderCommandHandler.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse.Core\\Handlers\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "Warehouse.Core\\Handlers\\CreateOrderCommandHandler.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAEwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:14:04.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Warehouse\\Warehouse\\Program.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Program.cs",
+              "ToolTip": "D:\\C#\\Warehouse\\Warehouse\\Program.cs",
+              "RelativeToolTip": "Warehouse\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T04:56:23.555Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

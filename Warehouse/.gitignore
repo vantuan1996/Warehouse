@@ -1,0 +1,22 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Cache
+*.cache
+
+# Binary
+*.pdb
+*.exe
+
+# Upload runtime
+wwwroot/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
