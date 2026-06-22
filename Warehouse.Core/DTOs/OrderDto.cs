@@ -8,19 +8,19 @@ namespace Warehouse.Core.DTOs
 {
     public class OrderDto
     {
-        public string CustomerId { get; set; }
-        public string Mobile { get; set; }
-        public string Email { get; set; }
-        public string Address { get; set; }
-        public string NoteCus { get; set; }
-        public string Id { get; set; }
-        public string OrderCode { get; set; }
-        public string SourceId { get; set; }
-        public string BranchId { get; set; }
-        public string StaffId { get; set; }
-        public string Note { get; set; }
-        public string OrderDate { get; set; }
-        public string DeliveryDate { get; set; }
+        public string? CustomerId { get; set; }
+        public string? Mobile { get; set; }
+        public string? Email { get; set; }
+        public string? Address { get; set; }
+        public string? NoteCus { get; set; }
+        public string? Id { get; set; }
+        public string? OrderCode { get; set; }
+        public string? SourceId { get; set; }
+        public string? BranchId { get; set; }
+        public string? StaffId { get; set; }
+        public string? Note { get; set; }
+        public string? OrderDate { get; set; }
+        public string? DeliveryDate { get; set; }
 
         // Tài chính
         public decimal TotalAmount { get; set; }
@@ -33,28 +33,30 @@ namespace Warehouse.Core.DTOs
         public decimal PaidAmount { get; set; }
 
         // Vận chuyển
-        public string ShippingMethod { get; set; }
+        public string? ShippingMethod { get; set; }
         public decimal CodAmount { get; set; }
         public double Weight { get; set; }
         public double Length { get; set; }
         public double Width { get; set; }
         public double Height { get; set; }
-        public string ShippingNote { get; set; }
-        public string DeliveryRequirement { get; set; }
-        public string CustomerName { get; set; }
-        public string SourceName { get; set; }
+        public string? ShippingNote { get; set; }
+        public string? DeliveryRequirement { get; set; }
+        public string? CustomerName { get; set; }
+        public string? SourceName { get; set; }
 
         // Danh sách sản phẩm
         public List<OrderItemDto> Items { get; set; }
        
     }
+  
+    
     public class OrderItemDto
     {
-        public string ProductId { get; set; }
-        public string ProductCode { get; set; }
-        public string ProductName { get; set; }
-        public string Sku { get; set; }
-        public int Quantity { get; set; }
+        public string? ProductId { get; set; }
+        public string? ProductCode { get; set; }
+        public string? ProductName { get; set; }
+        public string? Sku { get; set; }
+        public int   Quantity { get; set; }
         public decimal UnitPrice { get; set; }
       
         public decimal TotalPrice { get; set; }
