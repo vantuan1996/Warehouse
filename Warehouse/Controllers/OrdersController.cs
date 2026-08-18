@@ -52,5 +52,22 @@ namespace Warehouse.API.Controllers
             return Ok(result);
         }
 
+        [HttpPost("{id}/confirm-delivery")]
+        public async Task<IActionResult> ConfirmDelivery(string id, [FromBody] ConfirmDeliveryDto model)
+        {
+            if (model == null) return BadRequest();
+
+            // Gửi Command kèm theo id đơn hàng và dữ liệu từ body sang cho MediatR xử lý
+            var result = await _mediator.Send(new ConfirmDeliveryCommand(id, model));
+
+            if (!result.IsSuccess) return StatusCode(500, new { success = false, message = "Xử lý thất bại hoặc đơn hàng không tồn tại." });
+
+            return Ok(new
+            {
+                success = true,
+                message = result.Message,       // Kết quả: "Đã gửi thành công"
+                exportDate = result.ExportDate   // Kết quả: Chuỗi thời gian dạng "dd/MM/yyyy HH:mm" để frontend render lên UI
+            });
+        }
     }
 }

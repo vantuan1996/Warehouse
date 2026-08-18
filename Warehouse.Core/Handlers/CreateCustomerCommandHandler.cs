@@ -176,17 +176,25 @@ namespace Warehouse.Core.Handlers
             if (customer == null)
                 throw new Exception("customer not found");
 
+            if (dto.TypeUpdate == "TWO") // chỉ update tt điện thoại và email
+            {
+                customer.Phone = dto.Phone;
+                customer.Email = dto.Email;
+            }
+            else
+            {
+                customer.FirstName = dto.FirstName;
+                customer.LastName = dto.LastName;
+                customer.DateOfBirth = DateTime.Parse(dto.DateOfBirth);
+                customer.Phone = dto.Phone;
+                customer.Email = dto.Email;
+                customer.Gender = Convert.ToInt32(dto.Gender);
+                customer.AcceptMarketing = (bool)dto.AcceptMarketing;
+                customer.UpdatedAt = DateTime.Now;
+                customer.UpdatedBy = "Ok";
+            }
 
-
-            customer.FirstName = dto.FirstName;
-            customer.LastName = dto.LastName;
-            customer.DateOfBirth = DateTime.Parse(dto.DateOfBirth);
-            customer.Phone = dto.Phone;
-            customer.Email = dto.Email;
-            customer.Gender = Convert.ToInt32(dto.Gender);
-            customer.AcceptMarketing = (bool)dto.AcceptMarketing;
-            customer.UpdatedAt = DateTime.Now;
-            customer.UpdatedBy = "Ok";
+    
             _unitOfWork.CustomersRepository.Update(customer);
             await _unitOfWork.SaveAsync();
 

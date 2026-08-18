@@ -27,4 +27,5 @@ namespace Warehouse.Core.Common.Validators
             return System.Text.RegularExpressions.Regex.IsMatch(phone, @"^0\d{9}$");
         }
     }
+
 }

@@ -29,10 +29,26 @@ namespace Warehouse.Domain.Entities
 
         // Giao hàng (Shipping)
         public string ShippingMethod { get; set; } // Cổng vận chuyển, tự giao...
-
+        public int? FormDelivery { get; set; } // 1 là Khách nhanạ tại cửa hàng 2 đối tác vận chuyển ngoài
         public DateTime CreatedAt { get; set; }
         public string CreatedBy { get; set; }
+        public string? Status { get; set; }// confirm xác định giao hàng
+        public string? CancelReasonId { get; set; } // ID lý do hủy (để map với mảng/bảng danh mục lý do hủy)
+
+        //public string? CancelNote { get; set; } // Chi tiết lý do (nếu chọn 'Lý do khác' và nhập text)
+
+        public DateTime? CancelledAt { get; set; } // Ngày giờ hủy đơn hàng
+        public string? StatusOrder { get; set; } // từ chối , hủy , trả hàng, đổi trả hàng....
+        public string? CancelledBy { get; set; } // ID người hủy (Nhân viên, hoặc 'SYSTEM', hoặc 'CUSTOMER')
+
+        // --- XỬ LÝ TIỀN & KHO KHI HỦY ---
+
+        public string? CancelRefundType { get; set; } // Hình thức hoàn trả: 'refund' (Hoàn tiền ngay) hoặc 'refund_later' (Hoàn trả sau)
+
+        public DateTime? ExportDateOrder { get; set; } // ngày xuât hàng
 
 
     }
+
+
 }

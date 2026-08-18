@@ -53,6 +53,7 @@ namespace Warehouse.Core.DTOs
         public string? BudgetCode { get; set; } 
         public string? PhoneTax { get; set; } 
         public string? CreateBy { get; set; } 
+        public string? TypeUpdate { get; set; }  /// loại update
    
        
         

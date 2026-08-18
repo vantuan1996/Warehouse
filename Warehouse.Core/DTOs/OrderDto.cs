@@ -12,6 +12,7 @@ namespace Warehouse.Core.DTOs
         public string? Mobile { get; set; }
         public string? Email { get; set; }
         public string? Address { get; set; }
+        public string? PhoneAdress { get; set; } // địa chỉ giao hàng
         public string? NoteCus { get; set; }
         public string? Id { get; set; }
         public string? OrderCode { get; set; }
@@ -34,6 +35,7 @@ namespace Warehouse.Core.DTOs
 
         // Vận chuyển
         public string? ShippingMethod { get; set; }
+    
         public decimal CodAmount { get; set; }
         public double Weight { get; set; }
         public double Length { get; set; }
@@ -42,11 +44,19 @@ namespace Warehouse.Core.DTOs
         public string? ShippingNote { get; set; }
         public string? DeliveryRequirement { get; set; }
         public string? CustomerName { get; set; }
+        public int TotalOrder { get; set; }// tổng đơn hàng
+        public string? OrderLastest { get; set; }// Đơn hàng gần nhất
+        public decimal TotalMoneyOrder { get; set; }// tổng tiền 
         public string? SourceName { get; set; }
+        public int? FormDelivery { get; set; } // hình thức nhận hàng
+        public string? StatusOrder { get; set; } //trạng thái đơn hàng
+        public string? CancelDate { get; set; } //trạng thái đơn hàng
 
         // Danh sách sản phẩm
         public List<OrderItemDto> Items { get; set; }
-       
+        public string? Status { get; set; }
+        public List<OrderHistoriesDto> Histories { get; set; } = new List<OrderHistoriesDto>();
+
     }
   
     

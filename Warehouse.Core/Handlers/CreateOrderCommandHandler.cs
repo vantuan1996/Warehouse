@@ -60,6 +60,7 @@ namespace Warehouse.Core.Handlers
                     PaymentMethod = dto.PaymentMethod,
                     PaidAmount = dto.PaidAmount,
                     ShippingMethod = dto.ShippingMethod,
+                    FormDelivery = dto.FormDelivery,
                     CreatedAt = DateTime.Now,
                     CreatedBy = "admin"
                 };

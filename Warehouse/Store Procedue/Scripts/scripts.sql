@@ -187,3 +187,17 @@ CREATE TABLE MenuItems (
     SortOrder INT DEFAULT 0,          -- Thứ tự hiển thị
     IsActive BIT DEFAULT 1
 );
+
+CREATE TABLE dbo.OrderHistories (
+    id varchar (100) NOT NULL,
+    OrderId varchar(100) NOT NULL,
+    ActorName NVARCHAR(100) NOT NULL,
+    ActionType VARCHAR(50) NOT NULL,     -- 'CREATE', 'CONFIRM', 'SHIPPING', 'PAYMENT', 'EMAIL'
+    description NVARCHAR(500) NOT NULL,
+    Metadata NVARCHAR(MAX) NULL,          -- Lưu trữ JSON dữ liệu phụ, ví dụ: {"email_id": 123, "status": "sent"}
+    CreatedAt DATETIME DEFAULT GETDATE() NOT NULL
+);
+
+-- 2. Tạo Index trên cột order_id để tối ưu hóa tốc độ truy vấn lịch sử theo từng đơn hàng cụ thể
+CREATE NONCLUSTERED INDEX IX_OrderHistories_OrderId 
+ON dbo.OrderHistories (OrderId ASC);

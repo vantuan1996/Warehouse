@@ -26,6 +26,7 @@ namespace Warehouse.Core.Interfaces
         IGenericRepository<OrderItem> OrderItemRepository { get; }
         IGenericRepository<MenuItem> MenuItemRepository { get; }
         IGenericRepository<OrderShippingInfo> OrderShippingInfoRepository { get; }
+        IGenericRepository<OrderHistories> OrderHistoriesRepository { get; }
         Task BeginTransactionAsync();
         Task CommitTransactionAsync();
         Task RollbackTransactionAsync();

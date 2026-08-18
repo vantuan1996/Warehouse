@@ -39,6 +39,8 @@ namespace Warehouse.Infrastructure
 
         public IGenericRepository<OrderShippingInfo> OrderShippingInfoRepository { get; }
 
+        public IGenericRepository<OrderHistories> OrderHistoriesRepository { get; }
+
         public UnitOfWork(AppDbContext context)
         {
             _context = context;
@@ -62,6 +64,7 @@ namespace Warehouse.Infrastructure
             OrderItemRepository = new GenericRepository<OrderItem>(_context);
             MenuItemRepository = new GenericRepository<MenuItem>(_context);
             OrderShippingInfoRepository = new GenericRepository<OrderShippingInfo>(_context);
+            OrderHistoriesRepository = new GenericRepository<OrderHistories>(_context);
         }
 
         public async Task<int> SaveAsync()

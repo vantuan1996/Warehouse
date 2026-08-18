@@ -29,6 +29,7 @@ namespace Warehouse.Infrastructure.DbContext
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<OrderShippingInfo> OrderShippingInfo { get; set; }
         public DbSet<MenuItem> MenuItems { get; set; }
+        public DbSet<OrderHistories> OrderHistories { get; set; }
 
         //public DbSet<InventorySnapshot> InventorySnapshots { get; set; }
 
